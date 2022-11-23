@@ -1,0 +1,41 @@
+ 
+ Após uma prova de vestibular, o professor de um curso preparatório quer identificar qual dos seus quatro alunos teve a maior nota na prova e qual é o valor dela.
+ Elabore um algoritmo que solicite o nome e a nota do vestibular de cada aluno. Depois, informe qual aluno teve a maior nota de todas.
+
+ programa
+{
+	funcao inicio()
+	{
+          cadeia nome1,nome2, nome3, nome4
+	  inteiro nota1, nota2, nota3, nota4
+	  
+	  
+		escreva("Digite o nome do primeiro aluno: ")
+		leia(nome1)
+		escreva("Digite o nome do segundo aluno: ")
+		leia(nome2)
+		escreva("Digite o nome do terceiro aluno: ")
+		leia(nome3)
+		escreva("Digite o nome do quarto aluno: ")
+		leia(nome4)
+
+		escreva("Digite a nota do primeiro aluno: ")
+		leia(nota1)
+		escreva("Digite a nota do segundo aluno: ")
+		leia(nota2)
+		escreva("Digite a nota do terceiro aluno: ")
+		leia(nota3)
+		escreva("Digite a nota do quarto aluno: ")
+		leia(nota4)
+
+		se(nota1 > nota2){
+			escreva(nome1, " Parabéns sua nota foi a maior ", nota1)
+		}senao se(nota2 > nota3){
+			escreva(nome2, " Parabéns sua nota foi a maior ", nota2)
+		}senao se(nota3 > nota4){
+			escreva(nome3, " Parabéns sua nota foi a maior ", nota3)
+		}senao se(nota4 > nota3){
+			escreva(nome4, " Parabéns sua nota foi a maior ", nota4)
+			}
+	}
+}
